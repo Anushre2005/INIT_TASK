@@ -1,22 +1,65 @@
-# INIT_TASK
+# Customer Transaction Analytics
 
+Author: Anushree Revankar  
 
-Name:Anushree Revankar
+## 📌 Overview
 
-## Summary:
-This project processes customer transactions data across multiple CSVs, performing data loading, cleaning, merging, and aggregation.  
-Calculations include revenue, profit margin, customer segmentation (RFM), product performance, and advanced operations like suspicious transaction detection and rolling window analysis.  
-Also includes optimization and reusable functions such as Customer Lifetime Value (CLV) calculation.
+This project focuses on analyzing customer transaction data using Python and Pandas. 
+It performs advanced financial and behavioral analysis to extract meaningful business insights.
 
-## Approach:
-- Filter transactions per customer
-- Compute months since first purchase
-- Apply monthly discount factor to each transaction's revenue
-- Sum discounted revenues to get CLV
+This was created as a task-based analytical project to demonstrate data processing, customer analytics, and optimization techniques.
 
-## Dependencies:
-- pandas (for data manipulation and date handling)
+---
+
+## 🔧 Key Features
+
+- Loading and merging multiple CSV transaction files
+- Data cleaning and preprocessing
+- Revenue and profit margin computation
+- Customer segmentation using RFM analysis
+- Suspicious transaction detection
+- Rolling window revenue analysis
+- Customer Lifetime Value (CLV) calculation with discount factors
+- Reusable and optimized analytical functions
+
+---
+
+## 🧠 Approach
+
+1. Filter transactions per customer  
+2. Compute months since first purchase  
+3. Apply monthly discount factor to transaction revenue  
+4. Aggregate discounted revenue to calculate CLV  
+5. Perform segmentation and anomaly detection  
+
+---
+
+## 🛠 Technologies Used
+
 - Python 3.9+
-- numpy
+- Pandas
+- NumPy
+- Jupyter Notebook
 
+---
 
+## 🎯 Objective
+
+To simulate real-life customer analytics used in retail and e-commerce industries and demonstrate data science problem-solving ability.
+
+---
+
+## ✅ What This Project Demonstrates
+
+- Strong analytical thinking  
+- Practical business intelligence implementation  
+- Data manipulation and financial modeling  
+- Analytical reporting readiness  
+
+---
+
+## 🚀 Future Improvements
+
+- Visualization dashboard (Matplotlib / Power BI)
+- Automated report generation
+- Machine learning-based churn prediction
